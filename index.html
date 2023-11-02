@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header id="header">
+            <div class="logo">
+                <img src="./assets/logo.png" alt="emblem">
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#school-supplies">Price</a></li>
+                </ul>
+            </nav>
+            <div class="access-icons">
+                <a href="#contact"><img src="./assets/email.png" alt="email"></a>
+                <a href="#contact"><img src="./assets/floo.png" alt="floo"></a>
+                <a href="#contact"><img src="./assets/owl.png" alt="owl"></a>
+            </div>
+            <div class="mobile-menu-handler">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+        
+        <section id="hero-banner">
+            <h1>Hogwarts School  
+                of Witchcraft and Wizardry</h1>
+                <img src="./assets/hogwarts.png" alt="Hogwarts Castle">
+                <button>Apply</button>
+        </section>
+        <section id="about">
+            <p>Hogwarts School of Witchcraft and Wizardry, often shortened to Hogwarts, is a Scottish wizarding school located in the Scottish Highlands.
+            It accepts any magical student residing in the islands of Great Britain and Ireland at the age of eleven years old at the start of the incoming term for enrolment.
+            It is a state-owned school, funded by the British Ministry of Magic.</p>
+        
+            <h3>Location</h3>
+            <p>Hogwarts Castle, Highlands, Scotland, Great Britain</p>
+            <h3>Motto</h3>
+            <p>Draco Dormiens Nunquam Titillandus (Never Tickle a Sleeping Dragon)</p>
+            <h3>Headmaster</h3>
+            <p>Minerva McGonagall</p>
+            <img src="./assets/hogwarts_logo.png" alt="Hogwarts Logo">
+        
+            <h2>Subjects</h2>
+            <p>All first-years at Hogwarts must take seven subjects: Transfiguration, Charms, Potions, History of Magic, Defense Against the Dark Arts, Astronomy, and Herbology. Flying lessons (on broomsticks) are also compulsory.
+            At the end of their second year at Hogwarts, students are required to choose a minimum of two more subjects from the following list: Arithmancy, Muggle Studies, Divination, Study of Ancient Runes, and Care of Magical Creatures. Very specialized subjects such as Alchemy are sometimes offered in the final two years, if there is sufficient demand.</p>
+        
+            <h2>Houses</h2>
+            <img src="./assets/hogwarts_houses.png" alt="Hogwarts Houses"><br>
+        </section>  
+        <section id="schedule">
+            <img src="./assets/hogwarts_express.png" alt="Hogwarts Express">
+            <p>The school year at Hogwarts starts on the first of September. Students ride Hogwarts Express from King’s Cross Station. The express departs at 11:00 a.m. and arrives at Hogsmeade Station.</p>
+        
+            <h4>Daily Schedule</h4>
+            <p> The daily schedule looks like this from Monday through Friday: <br>
+                06:30 a.m. - 08:30 a.m.: Breakfast <br>
+                09:00 a.m. - 12:00 p.m.: Classes <br>
+                12:00 p.m. - 01:00 p.m.: Lunch <br>
+                01:00 p.m. - 04:00 p.m.: Classes <br>
+                06:00 p.m. - 08:00 p.m.: Dinner <br>
+                09:00 p.m. - 06:00 a.m.: Curfew <br>
+                There are no classes on Saturday and Sunday. <br>
+                The library is open from 07:00 a.m. to 08:30 from Monday through Friday <br>
+                and from 09:00 a.m. to 08:00 p.m. on Saturday and Sunday. </p>
+            <img src="./assets/room.png" alt="room">
+        </section>  
+        <section id="school-supplies">
+            <h3>School Supplies Purchase Form</h3>
+            <h4>Type of Contract:</h4>
+            <p>
+                <input type="radio" id="owl" name="contract" value="O.W.L">
+                <label for="owl">5 school years: Ordinary Wizarding Level (O.W.L)</label><br>
+                <input type="radio" id="newt" name="contract" value="N.E.W.T">
+                <label for="newt">7 school years: Nastily Exhausting Wizarding Test (N.E.W.T)</label>
+            </p>
+            <p>
+                1000 G<br>
+                1500 G
+            </p>
+        
+            <h4>Do you apply for financial assistance from the Ministry of Magic?</h4>
+            <p>
+                <input type="radio" id="yesAssistance" name="assistance" value="Yes">
+                <label for="yesAssistance">Yes</label><br>
+                <input type="radio" id="noAssistance" name="assistance" value="No">
+                <label for="noAssistance">No</label>
+            </p>
+        
+            <h4>Owlery rental costs 10 galleons per year. Feed is not included in the price.</h4>
+            <p>
+                <input type="radio" id="yesOwlery" name="owlery" value="Yes">
+                <label for="yesOwlery">Yes</label><br>
+                <input type="radio" id="noOwlery" name="owlery" value="No">
+                <label for="noOwlery">No</label>
+            </p>
+        
+            <h4>Please select from the list the desired items for the first school year:</h4>
+            <p>
+                <input type="checkbox" id="robes" name="items" value="Three sets of plain work robes (black)">
+                <label for="robes">Three sets of plain work robes (black)</label><br>
+                <input type="checkbox" id="hat" name="items" value="One plain pointed hat (black) for day wear">
+                <label for="hat">One plain pointed hat (black) for day wear</label><br>
+                <input type="checkbox" id="gloves" name="items" value="One pair of protective gloves">
+                <label for="gloves">One pair of protective gloves</label><br>
+                <input type="checkbox" id="cloak" name="items" value="One winter cloak (black, with silver fastenings)">
+                <label for="cloak">One winter cloak (black, with silver fastenings)</label><br>
+                <input type="checkbox" id="bookSet" name="items" value="First-year book set">
+                <label for="bookSet">First-year book set</label><br>
+                <input type="checkbox" id="wand" name="items" value="1 wand">
+                <label for="wand">1 wand</label><br>
+                <input type="checkbox" id="cauldron" name="items" value="1 cauldron (pewter, standard size 2)">
+                <label for="cauldron">1 cauldron (pewter, standard size 2)</label><br>
+                <input type="checkbox" id="phials" name="items" value="1 set of glass or crystal phials">
+                <label for="phials">1 set of glass or crystal phials</label><br>
+                <input type="checkbox" id="telescope" name="items" value="1 telescope">
+                <label for="telescope">1 telescope</label><br>
+                <input type="checkbox" id="scales" name="items" value="1 set of brass scales">
+                <label for="scales">1 set of brass scales</label><br>
+            </p>
+            <p>
+                15 G<br>
+                4 G<br>
+                3 G<br>
+                10 G<br>
+                16 G<br>
+                7 G<br>
+                6 G<br>
+                4 G<br>
+                11 G<br>
+                5 G
+            </p>
+        
+            <div id="cart" >
+                <h2>CART IS EMPTY</h2>
+                <img src="./assets/empty_cart.png" alt="Empty Cart">
+            </div>
+            <div id="cart-details" style="display: none;">
+                <h4>Details</h4>
+                <p>
+                    Three sets of plain work robes (black): 15 G<br>
+                    One plain pointed hat (black) for day wear: 4 G<br>
+                    One pair of protective gloves: 3 G<br>
+                    One winter cloak (black, with silver fastenings): 10 G<br>
+                    First-year book set: 16 G<br>
+                    1 wand: 7 G<br>
+                    1 cauldron (pewter, standard size 2): 6 G<br>
+                    1 set of glass or crystal phials: 4 G<br>
+                    1 telescope: 11 G<br>
+                    1 set of brass scales: 5 G
+                </p>
+                <h4>Contract</h4>
+                <p id="contract-price-placeholder"><!-- Тут буде показана ціна контракту --></p>
+                <h4>Owlery rent:</h4>
+                <p>10 G</p>
+                <h4>Financial assistance:</h4>
+                <p>-50%</p>
+                <h4>Total</h4>
+                <p id="total-price-placeholder"><!-- Тут буде показана загальна ціна --></p>                
+            </div>
+            <button>Apply</button>
+        </section>
+        <div id="contact" >
+            <img src="./assets/seal.png" alt="Hogwarts Seal">
+            <p>Owl Post</p>
+            <img src="./assets/owl.png" alt="Owl Image">
+            <p>Hogwarts Castle, Highlands, Scotland, Great Britain.</p>
+            <p>Floo Network</p>
+            <img src="./assets/floo.png" alt="Floo Network Image">
+            <p>Hogwarts Headmaster's office</p>
+            <p>Email</p>
+            <img src="./assets/email.png" alt="Email Image">            
+            <p>Sherbetlemon@hogwarts.co.uk</p>
+        </div>
+        
+    </div>
+
+</body>
+</html>
